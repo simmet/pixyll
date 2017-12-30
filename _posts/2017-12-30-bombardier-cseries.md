@@ -6,7 +6,7 @@ summary:    Some infos about the CSeries.
 categories: planes bombardier
 ---
 
-| Airline       |     Orders   || Deliveries   ||
+| Airline       | Orders       || Deliveries   ||
 |               | CS100 | CS300 | CS100 | CS300 |
 | ------------- | -----:| -----:| -----:| -----:|
 | Airline 1     | 33    | 23    | 14    | 3     |
