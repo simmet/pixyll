@@ -8,7 +8,7 @@ categories: planes bombardier
 
 | Airline       |     Orders    | Deliveries    |
 |               | CS100 | CS300 | CS100 | CS300 |
-| ------------- | -------------:| -------------:|
+| ------------- | -----:| -----:| -----:| -----:|
 | Airline 1     | 33    | 23    | 14    | 3     |
 | Airline 2     | 12    | 4     | 5     | 0     |
 | Airline 3     | 3     | 0     | 0     | 0     |
