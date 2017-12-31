@@ -13,12 +13,10 @@ layout: post
 {% for rec in site.data.[page.datasrc] %}
       
   <tr>
-    <td>{{ rec | size }}</td>
-    <td>{{ rec.airline }}</td>
-    <td>{{ rec.cs100ord }}</td>
-    <td>{{ rec.cs300ord }}</td>
-    <td>{{ rec.cs100del }}</td>
-    <td>{{ rec.cs300del }}</td>
+    {% for col in (1..cols) %}
+      <th>{{ rec.1 }}</th>
+    {% endfor %}
+    <td>fini</td>
   </tr>
 {% endfor %}
 
