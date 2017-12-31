@@ -11,6 +11,8 @@ layout: post
 <table>
     <caption>Table caption</caption>
     <thead>
+    <th colspan="3">Orders</th>
+    <th colspan="2">Deliveries</th>
     {% for column in mydata[0] %}
         <th>{{ column[0] }}</th>
     {% endfor %}
