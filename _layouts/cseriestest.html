@@ -6,15 +6,15 @@ layout: post
 
 {{ content }}
 
-{% assign mydata=site.data.[page.datasrc] %}
+{% assign mydata=site.data.[page.data_src] %}
 
 <table>
     <caption>Table caption</caption>
     <thead>
     <tr>
       <th></th>
-      <th colspan="2">Orders</th>
-      <th colspan="2">Deliveries</th>
+      <th colspan="{{ page.data_types }}">Orders</th>
+      <th colspan="{{ page.data_types }}">Deliveries</th>
     </tr>
     <tr>
       {% for column in mydata[0] %}
