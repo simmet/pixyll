@@ -2,6 +2,7 @@
 layout: post
 ---
 
+{% assign datasource = page.datasrc %}
 
 <table>
   <tr>
@@ -10,7 +11,7 @@ layout: post
     <th>County</th>
   </tr>
 
-{% for rec in site.data.{{ page.datasrc }} %}
+{% for rec in site.data.datasource %}
       
   <tr>
     <td>{{ rec.policyID }}</td>
