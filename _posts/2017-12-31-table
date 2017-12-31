@@ -1,0 +1,16 @@
+---
+layout:     post
+title:      Bombardier CSeries
+date:       2015-12-31
+summary:    Some infos about the CSeries.
+categories: planes bombardier
+---
+
+|             |          Grouping           ||
+First Header  | Second Header | Third Header |
+ ------------ | :-----------: | -----------: |
+Content       |          *Long Cell*        ||
+Content       |   **Cell**    |         Cell |
+
+New section   |     More      |         Data |
+And more      | With an escaped '\|'         ||
