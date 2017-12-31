@@ -1,13 +1,12 @@
 ---
 layout: post
 ---
-{% assign line = site.data.[page.table.src][0] %}
 
 {{ site.time | date: "%d.%m.%Y %H:%M:%S" }}
 
 {{ content }}
 
-{% assign mydata=site.data.[page.table.src] %}
+{% assign mydata=site.data.[page.tablesrc] %}
 
 <table>
     <caption>Table caption</caption>
