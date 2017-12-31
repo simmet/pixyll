@@ -1,12 +1,12 @@
 ---
 layout: post
 ---
-{% assign cols = site.data.[page.datasrc][1] | size %}
+{% assign cols = site.data.[page.datasrc][0] | size %}
 
 <table>
   <tr>
     {% for col in (1..cols) %}
-      <th>{{ site.data.[page.datasrc][1].first }}</th>
+      <th>{{ site.data.[page.datasrc][0].first }}</th>
     {% endfor %}
   </tr>
 
