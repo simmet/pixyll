@@ -1,11 +1,14 @@
 ---
 layout: post
 ---
+{% assign line = site.data.[page.datasrc][0] %}
 {% assign cols = site.data.[page.datasrc][0] | size %}
+
+{{ line[0] }}
 
 <table>
   <tr>
-    {% for col in (1..cols) %}
+    {% for col in (0..cols) %}
       <th>{{ site.data.[page.datasrc][0][col] }}</th>
     {% endfor %}
   </tr>
@@ -13,7 +16,7 @@ layout: post
 {% for rec in site.data.[page.datasrc] %}
       
   <tr>
-    {% for col in (1..cols) %}
+    {% for col in (0..cols) %}
       <th>{{ rec[1] }}</th>
     {% endfor %}
     <td>fini</td>
