@@ -9,7 +9,9 @@ layout: post
 {% assign mydata=site.data.[page.data_src] %}
 
 <table>
-    <caption>Table caption</caption>
+    {% if page.data_caption %}
+    <caption>{{ page.data_caption }}</caption>
+    {% endif %}
     <thead>
     <tr>
       <th></th>
