@@ -28,4 +28,5 @@ PrivatAir | 5 | 0 | 0
 Republic Airlines | 0 | 40 | 0
 Swiss | 10 | 20 | 8/7
 Tanzania Government Flight Agency | 0 | 2 | 0
+--- | ---:| ---:| ---:
 **Total** | **123** | **249** | **8/16**
