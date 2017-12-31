@@ -6,7 +6,7 @@ layout: post
 <table>
   <tr>
     {% for col in (1..cols) %}
-      <th>site.data.[page.datasrc][col]</th>
+      <th>{{ site.data.[page.datasrc][col] }}</th>
     {% endfor %}
   </tr>
 
