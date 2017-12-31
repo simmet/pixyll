@@ -5,12 +5,8 @@ layout: post
 
 <table>
   <tr>
-    <th>Size {{ cols }} </th>
-    <th>Airline</th>
-    <th>CS100 Orders</th>
-    <th>CS300 Orders</th>
-    <th>CS100 Deliveries</th>
-    <th>CS300 Deliveries</th>
+    {% for col in (1..cols) %}
+      <th>site.data.[page.datasrc][col]</th>
   </tr>
 
 {% for rec in site.data.[page.datasrc] %}
