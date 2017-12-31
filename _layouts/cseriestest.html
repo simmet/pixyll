@@ -4,28 +4,26 @@ layout: post
 {% assign line = site.data.[page.datasrc][0] %}
 {% assign cols = site.data.[page.datasrc][0] | size %}
 
-{{ date }}
-
-{{ line[0] }}
-
-<table>
-  <tr>
-    {% for col in (0..cols) %}
-      <th>{{ site.data.[page.datasrc][0][col] }}</th>
-    {% endfor %}
-  </tr>
-
-{% for rec in site.data.[page.datasrc] %}
-      
-  <tr>
-    {% for col in (0..cols) %}
-      <th>{{ rec[1] }}</th>
-    {% endfor %}
-    <td>fini</td>
-  </tr>
-{% endfor %}
-
-</table>
-
+{{ site.time | date: "%d.%m.%Y %H:%M:%S" }}
 
 {{ content }}
+
+{% assign mydata=site.data.[page.datasrc] %}
+
+<table>
+    <caption>Table caption</caption>
+    <thead>
+    {% for column in mydata[0] %}
+        <th>{{ column[0] }}</th>
+    {% endfor %}
+    </thead>
+    <tbody>
+    {% for row in mydata %}
+        <tr>
+        {% for cell in row %}
+            <td>{{ cell[1] }}</td>
+        {% endfor %}
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>
