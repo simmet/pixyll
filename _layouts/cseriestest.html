@@ -1,10 +1,11 @@
 ---
 layout: post
 ---
+{% assign cols = site.data.[page.datasrc][1] | size %}
 
 <table>
   <tr>
-    <th>Size: {{ site.data.[page.datasrc][1] | size}} </th>
+    <th>Size: {{ cols }} </th>
     <th>Airline</th>
     <th>CS100 Orders</th>
     <th>CS300 Orders</th>
