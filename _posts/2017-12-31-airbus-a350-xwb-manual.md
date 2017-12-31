@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Airbus A350 XWB
+title:      Airbus A350 XWB (manual)
 date:       2015-12-31
 summary:    Some infos about the A350.
 categories: planes airbus
