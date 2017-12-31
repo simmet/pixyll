@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Bombardier CSeries
+title:      Bombardier CSeries (manual)
 date:       2015-12-31
 summary:    Some infos about the CSeries.
 categories: planes bombardier
