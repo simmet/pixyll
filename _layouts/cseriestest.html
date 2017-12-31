@@ -1,0 +1,28 @@
+---
+layout: post
+---
+
+<table>
+  <tr>
+    <th>Airline</th>
+    <th>CS100 Orders</th>
+    <th>CS300 Orders</th>
+    <th>CS100 Deliveries</th>
+    <th>CS300 Deliveries</th>
+  </tr>
+
+{% for rec in site.data.[page.datasrc] %}
+      
+  <tr>
+    <td>{{ rec.airline }}</td>
+    <td>{{ rec.cs100ord }}</td>
+    <td>{{ rec.cs300ord }}</td>
+    <td>{{ rec.cs100del }}</td>
+    <td>{{ rec.cs300del }}</td>
+  </tr>
+{% endfor %}
+
+</table>
+
+
+{{ content }}
