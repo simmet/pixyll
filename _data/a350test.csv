@@ -1,8 +1,3 @@
----
-Model: A350
-Delivery: 2,4
-Orders: 5,7
----
 airline,a350-800ord,a350-900ord,a350-1000ord,a350-800del,a350-900del,a350-1000del
 airfrance,0,21,0,0,0,0
 british airways,0,0,18,0,0,0
