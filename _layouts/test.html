@@ -10,7 +10,7 @@ layout: post
     <th>County</th>
   </tr>
 
-{% for rec in site.data.test %}
+{% for rec in site.data.{{ page.datasrc }} %}
       
   <tr>
     <td>{{ rec.policyID }}</td>
