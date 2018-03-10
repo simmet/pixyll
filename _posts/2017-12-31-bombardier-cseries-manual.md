@@ -10,7 +10,7 @@ categories: planes bombardier
 
 Airline | CS100 | CS300 | Deliveries
 --- | ---:| ---:| ---:
-airBaltic | 0 | 20 | 7
+airBaltic | 0 | 20 | 8
 Air Canada | 0 | 45 | 0
 Abdel Hadi Abdullah Al-Qahtani & Sons Co. | 0 | 16 | 0
 Braathens Aviation | 10 | 0 | 0
@@ -26,7 +26,7 @@ Macquarie | 0 | 40 | 0
 Odyssey | 10 | 0 | 0
 PrivatAir | 5 | 0 | 0
 Republic Airlines | 0 | 40 | 0
-Swiss | 10 | 20 | 8/7
+Swiss | 10 | 20 | 8/8
 Tanzania Government Flight Agency | 0 | 2 | 0
 --- | ---:| ---:| ---:
-**Total** | **123** | **249** | **8/16**
+**Total** | **123** | **249** | **8/18**
