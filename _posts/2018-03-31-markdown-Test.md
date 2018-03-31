@@ -18,5 +18,5 @@ categories: markdown
   <footer><cite title="Antoine de Saint-Exupéry">Antoine de Saint-Exupéry</cite></footer>
 </blockquote>
 
-> An der Börse ist alles möglich, auch das Gegenteil.
+> An der Börse ist alles möglich, auch das Gegenteil.  
 > *André Kostolany*
