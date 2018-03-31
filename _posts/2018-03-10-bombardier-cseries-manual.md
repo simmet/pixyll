@@ -20,13 +20,13 @@ Falcon Aviation Services | 0 | 2 | 0
 Gulf Air | 10 | 0 | 0
 Ilyushin Finance Co. | 0 | 20 | 0
 Iraqi Airways | 0 | 5 | 0
-Korean Air | 0 | 10 | 2
+Korean Air | 0 | 10 | 4
 Lease Corporation International | 3 | 17 | 0/0
 Macquarie | 0 | 40 | 0
 Odyssey | 10 | 0 | 0
 PrivatAir | 5 | 0 | 0
 Republic Airlines | 0 | 40 | 0
-Swiss | 10 | 20 | 8/8
+Swiss | 10 | 20 | 8/9
 Tanzania Government Flight Agency | 0 | 2 | 0
 --- | ---:| ---:| ---:
-**Total** | **123** | **249** | **8/18**
+**Total** | **123** | **249** | **8/21**
