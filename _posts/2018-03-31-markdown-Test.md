@@ -19,10 +19,10 @@ categories: markdown
 </blockquote>
 
 > An der Börse ist alles möglich, auch das Gegenteil.  
->     *André Kostolany*
+> <André Kostolany>
 
 We will add a code block after the paragraph.
-    Code Block
+    <Code Block>
 
 ***
 
