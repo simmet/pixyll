@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Bombardier CSeries (manual)
-date:       2018-05-28
+date:       2018-06-01
 summary:    Some infos about the CSeries.
 categories: planes bombardier
 ---
@@ -20,14 +20,14 @@ Falcon Aviation Services | 0 | 2 | 0
 Gulf Air | 10 | 0 | 0
 Ilyushin Finance Co. | 0 | 14 | 0
 Iraqi Airways | 0 | 5 | 0
-Korean Air | 0 | 10 | 4
+Korean Air | 0 | 10 | 5
 Lease Corporation International | 3 | 17 | 0/0
 Macquarie | 0 | 40 | 0
 Odyssey | 10 | 0 | 0
 PrivatAir | 5 | 0 | 0
 Republic Airlines | 0 | 40 | 0
 State Transport Leasing Company | 0 | 6 | 0
-Swiss | 10 | 20 | 8/12
+Swiss | 10 | 20 | 8/13
 Tanzania Government Flight Agency | 0 | 2 | 0
 --- | ---:| ---:| ---:
-**Total** | **123** | **279** | **8/24**
+**Total** | **123** | **279** | **8/26**
